@@ -1,0 +1,74 @@
+.kpmgTreeTable .sapUiTableCell .sapMLabel,
+.kpmgTreeTable .sapUiTableCell .sapMText {
+  font-size: 104%;
+  user-select: text;
+}
+.kpmgTreeTable .sapUiTableHeaderRow {
+    height: 52px;
+}
+
+.boldClass{
+    font-weight: bold;
+}
+.kpmgGDMediumlLabelInfo {
+    font-size: 1.1rem;
+    color: rgb(202, 11, 48);
+    font-weight: bold;
+}
+
+.kpmgGDMediumlLabel {
+    font-size: 1.2rem;
+    color: #3c3b39;
+    font-weight: normal;
+}
+
+.paddingLeft{
+    padding-left: 0.5%;
+}
+
+.padding1PercentageLeft{
+    padding-left: 1%;
+}
+
+.smallPadding{
+    padding: 0.4%;
+}
+
+.autoWidth{
+    width: auto !important;
+}
+
+.width70Percentage{
+    width: 70% !important;
+}
+.width45Percentage{
+    width: 45% !important;
+}
+.width50Percentage{
+    width: 50% !important;
+}
+
+.width75Percentage{
+    width: 75% !important;
+}
+
+.marginRight1Percentage{
+    margin-right: 1%;
+}
+
+.buttonClassMedium{
+    width: 8rem;
+}
+
+.buttonClassSmall{
+    width: 3rem;
+}
+
+.largeIcon{
+    font-size: x-large;
+}
+
+/* Disabilita la transizione per la barra di progresso */
+.sapMPIBar {
+    transition: none !important;
+}

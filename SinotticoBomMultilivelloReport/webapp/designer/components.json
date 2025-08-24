@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "SinotticoBomMultilivelloReport",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "kpmg.custom.SinotticoBomMultilivelloReport.SinotticoBomMultilivelloReport.SinotticoBomMultilivelloReport",
+			"propertyEditor": "kpmg.custom.SinotticoBomMultilivelloReport.SinotticoBomMultilivelloReport.SinotticoBomMultilivelloReport.builder.PropertyEditor",
+			"i18n": "kpmg.custom.SinotticoBomMultilivelloReport.SinotticoBomMultilivelloReport.SinotticoBomMultilivelloReport.i18n.i18n",
+            "productionProcessEnabled": true,
+            "productionProcessTitle": "SinotticoBomMultilivelloReport",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER"]
+		}   
+	]
+}
