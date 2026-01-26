@@ -81,7 +81,7 @@
                         <t:Column width="15%" sortProperty="ProgressStatus" hAlign="Center">
                             <Label text="{i18n>SinotticoBomMultilivello.treeTable.progStatus}"/>
                             <t:template>
-                                <ProgressIndicator percentValue="{SinotticoBomModel>ProgressStatus}" displayValue="{= ${SinotticoBomModel>ProgressStatus} + '%'}" state="Success" showValue="true" visible="{= (${SinotticoBomModel>OrderType} !== 'COMP'  &amp;&amp; ${SinotticoBomModel>ParentAssembly} !== true ) ? true:false}" width="100%"/>
+                                <ProgressIndicator percentValue="{SinotticoBomModel>ProgressStatus}" displayValue="{= ${SinotticoBomModel>ProgressStatus} + '%'}" state="Success" showValue="true" visible="{= (${SinotticoBomModel>OrderType} !== 'COMP'  &amp;&amp; ${SinotticoBomModel>ParentAssembly} !== true &amp;&amp; ${SinotticoBomModel>OrderType} !== 'ZMGF' ) ? true:false}" width="100%"/>
                             </t:template>
                         </t:Column>
                     </t:columns>
